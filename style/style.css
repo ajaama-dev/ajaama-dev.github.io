@@ -1,84 +1,97 @@
-body{
+ body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
-
-ul li {
-  float: left;
-}
-
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #111111;
-}
-}
-.navbar {
-  overflow: hidden;
-  background-color: #333; 
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgb(147, 12, 209);
-}
-
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: rgb(147, 12, 209);
-  width: 100%;
-  z-index: 1;
-}
-
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
-}
+    background-color: #ffffff;
+    font-family: Arial, sans-serif; /* Added a clean default font */
+  }
+  /* Centers the main headers at the top of the page */
+  .header-text {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  ul li {
+    float: left;
+  }
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    background-color: #111111;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  /* Controls the sizing and alignment of your logo */
+  .nav-logo {
+    float: left;
+    height: 10px; 
+    width: auto;
+    padding: 14px 16px; /* Matches the padding of the text links */
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(147, 12, 209);
+  }
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(147, 12, 209);
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  .about {
+    text-align: center;
+    margin-top: 40px; 
+    padding: 0 20px;
+  }
+  .slogan {
+    text-align: center;
+  }
+  
